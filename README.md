@@ -14,7 +14,7 @@ All of the files in this repository are Jupyter Notebooks created by me while I 
 
 ## Getting Started - Steps to downloading Spark for Python 3
 
-**Step 1 - Ensure that Java 8 or higher is installed.**  
+### Step 1 - Ensure that Java 8 or higher is installed.  
 To check this run the following command in terminal/bash:
 ```
 $ java -version
@@ -27,7 +27,7 @@ java version "1.8.0_06-ea"
 
 If you do not have Java 8 installed, download it [here!](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html#A1097257)
 
-**Step 2 - Download Apache Spark**
+### Step 2 - Download Apache Spark
 Download the latest verison [here!](http://spark.apache.org/downloads.html)
 
 Unzip the contents manually or via the following commandline/bash commands:
