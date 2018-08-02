@@ -6,12 +6,53 @@ All of the files in this repository are Jupyter Notebooks created by me while I 
 
 ## Getting Started - Steps to downloading Spark for Python 3
 
-\textbf{Step 1 -} Ensure that Java 8 or higher is installed. To check this run the following command in terminal/bash:
+**Step 1 - Ensure that Java 8 or higher is installed.**  
+To check this run the following command in terminal/bash:
+```
 $ java -version
+```
 
-The output should look sosmething like this: 
+The output should look something like this: 
+```
 java version "1.8.0_06-ea"
+```
 
+If you do not have Java 8 installed, download it [here!](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html#A1097257)
+
+**Step 2 - Download Apache Spark**
+Download the latest verison [here!](http://spark.apache.org/downloads.html)
+
+Unzip the contents manually or via the following commandline/bash commands:
+```
+$ tar -xzf 
+```
+
+If you have brew, Spark can also be installed using brew!
+Use the following lines:
+```
+$ brew update
+$ brew install scala
+$ brew install apache-spark
+```
+
+Find where your spark exists, and its version:
+```
+$ brew info apache-spark
+```
+
+Export the SPARK_HOME to that location for example after downloading mine was as follows:
+```
+/usr/local/Cellar/apache-spark/2.3.1
+```
+
+Then before each use run the following lines, or preferabbly add them to your ~/.bashrc:
+```
+$ export SPARK_HOME='/usr/local/Cellar/apache-spark/2.3.1/libexec'
+$ export PYSPARK_DRIVER_PYTHON=jupyter
+$ export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+```
+
+Fell free to run `$ pyspark`
 
 ## Contents
 
