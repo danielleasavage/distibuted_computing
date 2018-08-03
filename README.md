@@ -32,7 +32,7 @@ Download the latest verison [here!](http://spark.apache.org/downloads.html)
 
 Unzip the contents manually or via the following commandline/bash commands:
 ```
-$ tar -xzf 
+$ tar -xzf spark-2.3.1-bin-hadoop2.7.tgz
 ```
 
 If you have brew, Spark can also be installed using brew!
