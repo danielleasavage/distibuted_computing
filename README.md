@@ -7,10 +7,10 @@ All of the files in this repository are Jupyter Notebooks created by me while I 
 ## Contents
 
 1. PySpark Part 1 - Defining Spark and its benifits, learn to load in data and how Spark stores it. 
-2. PySpark Part 2 - Map Reduce and other helpful functions.
-3. PySpark Part 3 - Reducing the amount of data "shuffle" and more lambda functions.
-4. Connecting to MongoDb & S3 - Getting Data from MongoDB and S3 and load it into Spark
-5. SparkML & SparkSQL - A fun quick project using PySpark and Kaggle DOTA data 
+2. PySpark Part 2 - Map Reduce and other helpful functions. - *In progress*
+3. PySpark Part 3 - Reducing the amount of data "shuffle". - *In progress*
+4. Connecting to MongoDb & S3 - Getting Data from MongoDB and S3 and load it into Spark - *In progress*
+5. SparkML & SparkSQL - A fun quick project using PySpark and Kaggle DOTA data - *In progress*
 
 ## Getting Started - Steps to downloading Spark for Python 3
 
@@ -32,7 +32,7 @@ Download the latest verison [here!](http://spark.apache.org/downloads.html)
 
 Unzip the contents manually or via the following commandline/bash commands:
 ```
-$ tar -xzf 
+$ tar -xzf spark-2.3.1-bin-hadoop2.7.tgz
 ```
 
 If you have brew, Spark can also be installed using brew!
@@ -53,7 +53,7 @@ Export the SPARK_HOME to that location for example after downloading mine was as
 /usr/local/Cellar/apache-spark/2.3.1
 ```
 
-Then before each use run the following lines, or preferabbly add them to your ~/.bashrc:
+Then before each use run the following lines, or preferably add them to your ~/.bashrc:
 ```
 $ export SPARK_HOME='/usr/local/Cellar/apache-spark/2.3.1/libexec'
 $ export PYSPARK_DRIVER_PYTHON=jupyter
