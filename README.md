@@ -7,10 +7,10 @@ All of the files in this repository are Jupyter Notebooks created by me while I 
 ## Contents
 
 1. PySpark Part 1 - Defining Spark and its benifits, learn to load in data and how Spark stores it. 
-2. PySpark Part 2 - Map Reduce and other helpful functions.
-3. PySpark Part 3 - Reducing the amount of data "shuffle".
-4. Connecting to MongoDb & S3 - Getting Data from MongoDB and S3 and load it into Spark
-5. SparkML & SparkSQL - A fun quick project using PySpark and Kaggle DOTA data 
+2. PySpark Part 2 - Map Reduce and other helpful functions. - In progress
+3. PySpark Part 3 - Reducing the amount of data "shuffle". - In progress
+4. Connecting to MongoDb & S3 - Getting Data from MongoDB and S3 and load it into Spark - In progress
+5. SparkML & SparkSQL - A fun quick project using PySpark and Kaggle DOTA data - In progress
 
 ## Getting Started - Steps to downloading Spark for Python 3
 
