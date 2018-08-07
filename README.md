@@ -53,7 +53,7 @@ Export the SPARK_HOME to that location for example after downloading mine was as
 /usr/local/Cellar/apache-spark/2.3.1
 ```
 
-Then before each use run the following lines, or preferabbly add them to your ~/.bashrc:
+Then before each use run the following lines, or preferably add them to your ~/.bashrc:
 ```
 $ export SPARK_HOME='/usr/local/Cellar/apache-spark/2.3.1/libexec'
 $ export PYSPARK_DRIVER_PYTHON=jupyter
